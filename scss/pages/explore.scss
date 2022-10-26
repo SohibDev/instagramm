@@ -2,47 +2,16 @@
 @import "../layout/header";
 @import "../layout/footer";
 
+.explorer:nth-child(1) {
+    margin-top: 90px;
+}
 .explorer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-
-.explore1 {
-  display: flex;
-  flex-direction: column;
-  row-gap: 30px;
-}
-
-@media only screen and (max-width: 600px) {
-  .explorer:nth-child(1) {
-    // display: flex;
-    margin-top: 80px;
-  }
-
-  .explorer {
+    margin-top: 25px;
     display: flex;
-    margin-top: -70px;
-    flex-wrap: nowrap;
-  }
-
-  .exolore2 {
-    video {
-      max-height: 330px;
+    justify-content: space-between;
+    .explore1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
     }
-  }
-
-  .explore1 {
-    // margin-top: 10px;
-    display: flex;
-    row-gap: -200px;
-  }
-
-  img,
-  video {
-    display: inline-block;
-    max-width: 130px;
-    max-height: 130px;
-  }
 }
