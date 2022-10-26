@@ -98,6 +98,11 @@ nav {
     padding-left: 10px;
   }
 }
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .explorer:nth-child(1) {
   margin-top: 90px;
 }
@@ -111,4 +116,32 @@ nav {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+}
+
+footer .footer_top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 80px;
+}
+footer .footer_top a {
+  font-family: sans-serif;
+  color: black;
+  font-size: 12px;
+  opacity: 50%;
+}
+footer .footer_bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: auto;
+}
+footer .footer_bottom p, footer .footer_bottom label, footer .footer_bottom select {
+  font-family: sans-serif;
+  color: black;
+  font-size: 12px;
+  opacity: 50%;
 }/*# sourceMappingURL=explore.css.map */
