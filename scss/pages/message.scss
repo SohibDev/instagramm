@@ -154,6 +154,12 @@
       border-radius: 20px;
     }
 
+    .bottom{
+      display: absolute;
+      bottom: 0;
+    }
+    
+
     .bottom_message {
       display: flex;
       align-items: center;
@@ -163,6 +169,7 @@
       border-radius: 20px;
       padding: 5px 20px;
       justify-content: space-between;
+
 
       & input {
         border: none;

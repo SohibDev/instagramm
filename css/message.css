@@ -141,6 +141,10 @@
   height: 200px;
   border-radius: 20px;
 }
+.messages .writings .bottom {
+  display: absolute;
+  bottom: 0;
+}
 .messages .writings .bottom_message {
   display: flex;
   align-items: center;
