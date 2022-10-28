@@ -1,1 +1,70 @@
-/*# sourceMappingURL=profile.css.map */
+.my_profile {
+  width: 15%;
+  height: 15%;
+  margin-top: 120px;
+  border-radius: 50%;
+  margin-left: 5%;
+}
+
+.prof_contain {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.prof_contain > div > ul > .mac {
+  margin-top: 130px;
+  align-items: center;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prof_contain > div > ul > .mac1 {
+  display: flex;
+  gap: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.prof_contain > div > ul > li > button {
+  background-color: transparent;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.prof_contain > div > ul > li > img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.ptof_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.ptof_bottom > li > a {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ptof_bottom > li > a > span {
+  font-size: 12px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.mat {
+  max-width: 20px;
+  height: 20px;
+}
+
+.prof_end {
+  max-width: 320px;
+  margin-top: 20px;
+}/*# sourceMappingURL=profile.css.map */
