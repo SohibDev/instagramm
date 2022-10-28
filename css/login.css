@@ -1,1 +1,122 @@
-/*# sourceMappingURL=login.css.map */
+body {
+  padding-top: 30px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.login .left {
+  background-image: url(../../images/login_bgi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex: 50%;
+  width: 100%;
+  background-color: transparent;
+}
+.login .left img {
+  position: absolute;
+  top: 30px;
+  left: 160px;
+  border-radius: 30px;
+  height: 510px;
+  width: 260px;
+}
+.login .rigth {
+  padding: 0 40px;
+  background-color: #efefef;
+  display: flex;
+  flex: 50%;
+  width: 100%;
+  flex-direction: column;
+}
+.login .rigth .insta {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  transform: translate(-50%, -50%);
+  margin-left: 50%;
+}
+.login .rigth input {
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-top: 10px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+.login .rigth .enter {
+  padding: 5px 0;
+  margin: 17px 25px;
+  background-color: #b2dffc;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.login .rigth .enter:hover {
+  background-color: blue;
+}
+.login .rigth .or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+.login .rigth .or hr {
+  width: 125px;
+  color: #DBDBDB;
+}
+.login .rigth .or p {
+  color: #8e8e8e;
+}
+.login .rigth .facebook {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.login .rigth .facebook img {
+  width: 16px;
+  height: 16px;
+}
+.login .rigth .facebook a {
+  color: #4a679a;
+  font-size: 18px;
+}
+.login .rigth .forgot {
+  color: #4a679a;
+  margin-top: 20px;
+  text-align: center;
+}
+.login .rigth .have {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.login .rigth .have p {
+  font-size: 20px;
+}
+.login .rigth .have a {
+  color: #4fa2f7;
+  font-size: 20px;
+}
+.login .rigth .apps {
+  text-align: center;
+  margin-top: 20px;
+}
+.login .rigth .download {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  padding-bottom: 25px;
+}
+.login .rigth .download img {
+  width: 134px;
+}/*# sourceMappingURL=login.css.map */
