@@ -173,6 +173,9 @@
 
       & input {
         border: none;
+        max-width: 350px;
+        width: 100%;
+        padding: 3px 0;
       }
     }
     & .send {
@@ -188,9 +191,38 @@
         flex-direction: column;
         flex: 25%;
     }
+    .profiles .text{
+    margin-left:20px;
+    }
 }
-@media screen and (max-width:700px){
-.top_left{
-    display: none;
+@media screen and (max-width:680px){
+.bottom .account .info p{
+  display: none;
+}
+.bottom .account .info h4{
+    font-size: 15px;
+}
+
+.profiles .text{
+  margin-left: 0;
+}
+.top ._ab6-{
+  display: none;
+}
+.messages .writings{
+padding: 5px;
+}
+}
+
+@media screen and (max-width:465px) {
+  .bottom .account .info{
+display: none;
+}
+.profiles .text{
+  font-size: 13px;
+}
+.account {
+  display: flex;
+  justify-content: center;
 }
 }
