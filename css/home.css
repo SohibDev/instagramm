@@ -1,0 +1,430 @@
+.icon-box:nth-child(1) svg path {
+  fill: black;
+  stroke: black;
+}
+
+body {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.container-main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 70px;
+}
+
+#blogers {
+  position: relative;
+  margin-top: 90px;
+}
+
+.recomend {
+  position: absolute;
+  top: 25px;
+  width: 306px;
+  margin-left: 520px;
+}
+.recomend .rec-acc {
+  margin-top: 20px;
+  height: 32px;
+  position: relative;
+  margin-top: 20px;
+}
+.recomend .rec-acc .rec-ac-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+}
+.recomend .rec-acc .ac-name {
+  position: absolute;
+  margin-left: 10px;
+  color: black;
+  top: -3px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.recomend .rec-acc .who-sub {
+  position: absolute;
+  top: 17px;
+  color: rgb(173, 173, 173);
+  margin-left: 43px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.recomend .rec-acc .sub {
+  color: rgb(0, 149, 246);
+  float: right;
+  margin-top: 5px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.recomend .rec-fy {
+  font-size: 14px;
+  color: #8E8E8E;
+  margin-top: 15px;
+  line-height: 18px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.recomend .all {
+  float: right;
+  margin-top: 15px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.recomend .my-account {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.recomend .my-account .my-pp {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 1.5px;
+}
+.recomend .my-account .change {
+  color: rgb(0, 149, 246);
+  position: absolute;
+  right: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.recomend .my-account .my-acc {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.accounts {
+  position: relative;
+  border: 1px solid rgb(219, 219, 219);
+  margin-top: 30px;
+  padding: 20px 0px 20px 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 470px;
+}
+.accounts .next {
+  position: absolute;
+  border-radius: 50%;
+  right: 20px;
+  top: 40px;
+  z-index: 1;
+}
+.accounts .box {
+  flex: 16.66666;
+  width: 56px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.accounts .box .circle {
+  width: 67px;
+  height: 68px;
+  background: linear-gradient(40deg, rgb(221, 191, 18) 30%, rgb(212, 146, 15) 38%, rgb(180, 21, 21) 54%, rgb(255, 0, 250) 100%);
+  border-radius: 50%;
+}
+.accounts .box .circle2 {
+  position: absolute;
+  top: 2px;
+  width: 63px;
+  height: 63px;
+  background-color: white;
+  border-radius: 50%;
+  left: 7px;
+}
+.accounts .box .name-of-ac {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(38, 38, 38);
+  text-align: center;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.accounts .box .ac-photo {
+  position: absolute;
+  left: 8.5px;
+  top: 4px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.accounts .box .ac-photo:visited {
+  outline: 1px solid gray;
+}
+
+#posts .post {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  width: 470px;
+}
+#posts .post iframe {
+  width: 100%;
+  height: 500px;
+}
+#posts .post .post-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+#posts .post .post-header .circle {
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  background: linear-gradient(40deg, rgb(221, 191, 18) 30%, rgb(212, 146, 15) 38%, rgb(180, 21, 21) 54%, rgb(255, 0, 250) 100%);
+  border-radius: 50%;
+  margin-left: -10px;
+}
+#posts .post .post-header .circle2 {
+  position: absolute;
+  margin-left: -7.4px;
+  margin-top: 1.3px;
+  width: 40px;
+  height: 37px;
+  background-color: white;
+  border-radius: 50%;
+}
+#posts .post .post-header .dots {
+  margin-top: 5px;
+  width: 20px;
+  height: 30px;
+}
+#posts .post .post-header .account-image {
+  position: absolute;
+  margin-left: -5.5px;
+  margin-top: 2px;
+  width: 36px;
+  height: 34.5px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#posts .post .post-header .account-name {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+#posts .post .post-image {
+  width: 100%;
+  height: 470px;
+}
+#posts .post .post-footer .your-comment {
+  position: relative;
+}
+#posts .post .post-footer .your-comment textarea {
+  border: none;
+  outline: none;
+  width: 90%;
+  resize: none;
+  padding: 20px 0 20px 60px;
+}
+#posts .post .post-footer .your-comment button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: none;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 14px;
+  color: rgb(0, 149, 246);
+  font-family: "Roboto", sans-serif;
+}
+#posts .post .post-footer .your-comment .smile {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+#posts .post .post-footer .comment, #posts .post .post-footer .send {
+  margin-left: 10px;
+}
+#posts .post .post-footer .like {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#posts .post .post-footer .lenta {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#posts .post .post-footer .liked {
+  display: block;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+#posts .post .post-footer .description {
+  display: inline-block;
+  font-size: 14px;
+}
+#posts .post .post-footer .account-name {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+#posts .post .post-footer .more {
+  margin-left: 5px;
+  color: gray;
+}
+#posts .post .post-footer .look {
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: #8E8E8E;
+  margin-left: 20px;
+  display: block;
+}
+#posts .post .post-footer .day {
+  text-decoration: none;
+  color: #8E8E8E;
+  margin-top: 10px;
+  font-size: 10px;
+  margin-left: 20px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+#posts .post .post-footer hr {
+  color: rgb(173, 173, 173);
+  padding: 0;
+  margin-top: 10px;
+  height: 1px;
+}
+#posts .post .post-footer .see-trans {
+  font-size: 12px;
+  display: inline-block;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5px;
+}
+
+.footer {
+  width: 365px;
+  position: absolute;
+  top: 420px;
+  margin-left: 520px;
+}
+.footer .footer-links {
+  color: rgb(199, 199, 199);
+  font-size: 14px;
+  line-height: 16px;
+}
+.footer .footer-links:hover {
+  text-decoration: underline;
+}
+.footer .realise {
+  color: rgb(199, 199, 199);
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.suggest {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 10px;
+  width: 470px;
+  padding: 20px 0 10px 0;
+  margin-top: 20px;
+}
+.suggest .header-os {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.suggest .header-os .sfy {
+  font-size: 14px;
+  color: #8E8E8E;
+  line-height: 18px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.suggest .header-os .sa {
+  font-size: 14px;
+  color: rgb(0, 149, 246);
+  font-family: "Roboto", sans-serif;
+}
+.suggest .dad-ob {
+  display: flex;
+  margin-top: 10px;
+  padding: 0 0 20px 20px;
+}
+.suggest .dad-ob .box:nth-child(2) {
+  margin-left: 30px;
+}
+.suggest .dad-ob .box {
+  border: 1px solid rgb(219, 219, 219);
+  height: 205px;
+  width: 175px;
+  border-radius: 5px;
+}
+.suggest .dad-ob .box img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.suggest .dad-ob .box .name {
+  text-align: center;
+  margin-top: 20px;
+}
+.suggest .dad-ob .box .who-follow {
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.suggest .dad-ob .box button {
+  background-color: rgb(0, 149, 246);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+  .recomend, .footer {
+    display: none;
+  }
+  .all-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container, .container-main {
+    max-width: 740px;
+    padding: 0;
+  }
+}/*# sourceMappingURL=home.css.map */

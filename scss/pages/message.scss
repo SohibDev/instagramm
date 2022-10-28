@@ -1,0 +1,228 @@
+.icon-box:nth-child(2) {
+  svg {
+    path {
+      fill: black;
+      stroke: whitesmoke;
+    }
+  }
+}
+.message {
+  padding-top: 100px;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+  height: 100px;
+
+  & p {
+    font-size: 14px;
+    color: rgb(198, 192, 192);
+  }
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  flex: 40%;
+
+  .top {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 10px 15px;
+  }
+  .text {
+    margin-left: 100px;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  .bottom {
+    border: 1px solid rgb(219, 219, 219);
+    border-top: none;
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 25px;
+
+    & :hover {
+      background-color: #efefef;
+    }
+
+    .account {
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      & img {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+      }
+    }
+  }
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  flex: 60%;
+  & .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 100%;
+    padding: 20px 20px;
+    border: 1px solid rgb(219, 219, 219);
+    & .top_right {
+      display: flex;
+      gap: 15px;
+    }
+  }
+  & .account {
+    display: flex;
+    gap: 10px;
+  }
+  .account img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+  .writings {
+    // display: flex;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 40px;
+    justify-content: space-between;
+
+    & p {
+      text-align: center;
+      padding-top: 0;
+    }
+
+    & .wleft {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & h5 {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px 5px;
+        text-align: center;
+        width: 100%;
+        max-width: 200px;
+      }
+    }
+    .second {
+      margin-top: 130px;
+    }
+    & .wright {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      float: right;
+
+      & h5 {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px 5px;
+        text-align: center;
+        width: 100%;
+        max-width: 200px;
+        background-color: #efefef;
+      }
+    }
+
+    .p {
+      margin-top: 80px;
+      text-align: center;
+    }
+
+    & .limage {
+      width: 160px;
+      height: 200px;
+      border-radius: 20px;
+    }
+    & .rimage {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    .bottom{
+      display: absolute;
+      bottom: 0;
+    }
+    
+
+    .bottom_message {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 67px;
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 5px 20px;
+      justify-content: space-between;
+
+
+      & input {
+        border: none;
+        max-width: 350px;
+        width: 100%;
+        padding: 3px 0;
+      }
+    }
+    & .send {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
+
+@media screen and (max-width:780px) {
+    .profiles {
+        display: flex;
+        flex-direction: column;
+        flex: 25%;
+    }
+    .profiles .text{
+    margin-left:20px;
+    }
+}
+@media screen and (max-width:680px){
+.bottom .account .info p{
+  display: none;
+}
+.bottom .account .info h4{
+    font-size: 15px;
+}
+
+.profiles .text{
+  margin-left: 0;
+}
+.top ._ab6-{
+  display: none;
+}
+.messages .writings{
+padding: 5px;
+}
+}
+
+@media screen and (max-width:465px) {
+  .bottom .account .info{
+display: none;
+}
+.profiles .text{
+  font-size: 13px;
+}
+.account {
+  display: flex;
+  justify-content: center;
+}
+}
