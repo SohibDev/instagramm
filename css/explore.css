@@ -127,6 +127,7 @@ nav {
 
 footer .footer_top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 900px;
   margin: auto;

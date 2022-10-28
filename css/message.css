@@ -44,7 +44,7 @@
   display: flex;
   flex: 100%;
   flex-direction: column;
-  padding: 10px 15px;
+  padding: 20px;
   gap: 25px;
 }
 .profiles .bottom :hover {
@@ -90,7 +90,6 @@
 .messages .writings {
   border: 1px solid rgb(219, 219, 219);
   padding: 40px;
-  justify-content: space-between;
 }
 .messages .writings p {
   text-align: center;
@@ -175,6 +174,12 @@
   .profiles .text {
     margin-left: 20px;
   }
+  .second2 {
+    margin-top: 10px;
+  }
+  .writings p {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 680px) {
   .bottom .account .info p {
@@ -189,8 +194,8 @@
   .top ._ab6- {
     display: none;
   }
-  .messages .writings {
-    padding: 5px;
+  .messages .writings .wright {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 465px) {
