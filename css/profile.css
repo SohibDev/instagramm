@@ -1,3 +1,8 @@
+.icon-box:nth-child(4) svg path {
+  fill: none;
+  stroke: 2;
+}
+
 .my_profile {
   width: 15%;
   height: 15%;
